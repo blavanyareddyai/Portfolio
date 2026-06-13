@@ -1,0 +1,32 @@
+body{
+    margin:0;
+    background:linear-gradient(135deg,#1e3a8a,#7c3aed);
+    font-family:Poppins,sans-serif;
+}
+
+h1{
+    text-align:center;
+    color:white;
+    padding:30px;
+}
+
+.achievement-container{
+    display:flex;
+    justify-content:center;
+    gap:30px;
+    flex-wrap:wrap;
+    padding:50px;
+}
+
+.achievement-card{
+    width:350px;
+    background:white;
+    padding:30px;
+    border-radius:20px;
+    box-shadow:0px 5px 20px rgba(0,0,0,0.3);
+    transition:.4s;
+}
+
+.achievement-card:hover{
+    transform:scale(1.05);
+}
